@@ -15,23 +15,24 @@
     <session id="405032743">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="js" value="70" />
+          <entry key="js" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="70" />
+          <entry key="JavaScript" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -50,11 +51,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-类型建的相互转换/3-其它基本类型转换成Boolean类型.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="252">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/9-时间Date/3-Date间运算.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -130,9 +140,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1422" />
+    <option name="x" value="1339" />
     <option name="y" value="23" />
-    <option name="width" value="1138" />
+    <option name="width" value="1221" />
     <option name="height" value="1415" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -153,12 +163,7 @@
             <path>
               <item name="JavaScript基础" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript基础" type="462c0819:PsiDirectoryNode" />
-              <item name="4-数字相关运算符" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaScript基础" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScript基础" type="462c0819:PsiDirectoryNode" />
-              <item name="5-逻辑判断语句" type="462c0819:PsiDirectoryNode" />
+              <item name="9-时间Date" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,17 +242,17 @@
       <workItem from="1542851437332" duration="8541000" />
       <workItem from="1542937681370" duration="7420000" />
       <workItem from="1542964623329" duration="88000" />
+      <workItem from="1543199212984" duration="235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16049000" />
+    <option name="totallyTimeSpent" value="16284000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1422" y="23" width="1138" height="1415" extended-state="0" />
-    <editor active="true" />
+    <frame x="1339" y="23" width="1221" height="1415" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24977618" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -530,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9-时间Date/3-Date间运算.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2-类型建的相互转换/1-其它基本类型转换成Number类型.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
@@ -553,8 +551,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2-类型建的相互转换/3-其它基本类型转换成Boolean类型.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="252">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9-时间Date/3-Date间运算.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

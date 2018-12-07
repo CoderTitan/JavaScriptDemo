@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>onresize事件</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        window.onresize = function () {
+            var width = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth
+            var height = document.documentElement.clientHeight || document.body.clientHeight || window.innerHeight
+
+            console.log(document.documentElement.clientWidth, document.body.clientWidth, window.innerWidth, width)
+            console.log(document.documentElement.clientHeight, document.body.clientHeight, window.innerHeight, height)
+            console.log('--------------')
+        }
+    </script>
+
+</body>
+</html>

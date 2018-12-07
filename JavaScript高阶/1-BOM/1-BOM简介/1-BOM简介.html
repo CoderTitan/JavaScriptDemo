@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOM简介</title>
+</head>
+<body style="background-color: red">
+
+    <input type="text" name="titan">
+
+    <button onclick="goGreen()">跳转到绿色页面</button>
+    <button onclick="reloadRed()">刷新红页面</button>
+    <button onclick="loadGreen()">加载绿叶面</button>
+    <button onclick="backPage()">上一页</button>
+    <button onclick="nextPage()">下一页</button>
+    <button onclick="goYellow()">跳转到黄页面</button>
+
+
+    <script type="text/javascript">
+        //BOM:浏览器对象模型（Browser Object Model），是一个用于访问浏览器和计算机屏幕的对象集合。我们可以通过全局对象window来访问这些对象。
+
+
+        //window.document
+        //是一个BOM对象，表示的是当前所载入的文档(即页面)，但它的方法和属性同时也属于DOM对象所涵盖的范围。
+        console.log(window.document)
+
+
+        //window.frames
+        //是当前页面中所有框架的集合
+        console.log(window.frames)
+
+
+        //window.navigator
+        //用于反应浏览器及其功能信息的对象
+        console.log(window.navigator)
+
+
+        //window.screen
+        //提供浏览器以外的环境信息
+        console.log(window.screen)
+
+
+        console.log(window.location)
+        //window.location: 加载页面
+        //href属性        控制浏览器地址栏的内容
+        //reload()       刷新页面
+        //reload(true)   刷新页面，不带缓存
+        //assign()       加载新的页面
+        //replace()      加载新的页面(注意：不会再浏览器的历史记录表中留下记录)
+
+
+
+        console.log(window.history)
+        //window.history
+        //window.history.length获取历史记录的长度
+        //back()     上一页
+        //forward()  下一页
+        //go(num)    //num<0时，跳转到自己后方的第num个记录。num>0时，跳转自己前方的第num个记录
+
+
+
+        function goGreen() {
+            console.log("green")
+            window.location.href = "greenWindow.html"
+        }
+
+        function reloadRed() {
+            window.location.reload()
+        }
+
+        function loadGreen() {
+            window.location.assign("greenWindow.html")
+        }
+
+        function backPage() {
+            window.history.back()
+        }
+
+        function nextPage() {
+            window.history.forward()
+        }
+
+        function goYellow() {
+            window.history.go(2)
+        }
+
+    </script>
+
+</body>
+</html>

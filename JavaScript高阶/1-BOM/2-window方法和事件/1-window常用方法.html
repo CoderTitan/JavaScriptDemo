@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>windows中常用的方法</title>
+</head>
+<body>
+
+    <button onclick="openNewWindow()">打开新窗口</button>
+    <button onclick="closeWindow()">关闭窗口</button>
+
+
+    <script>
+        function openNewWindow() {
+            //open(url?: string, target?: string, features?: string, replace?: boolean)
+
+            window.open("BOM简介/yellowWindow.html", "black", "width=200px, height=500px, top=0px, left=2px")
+        }
+
+        function closeWindow() {
+            window.close()
+        }
+    </script>
+</body>
+</html>
+
+
+
+<!--
+window常用方法open特性
+
+属性           值
+width--数值---新窗口的宽度, 不能超过100
+height--数值---新窗口的高度, 不能超过100
+top--数值---距离屏幕上方的像素
+left--数值---距离屏幕左侧像素
+toolbar--yes/no---是否显示工具栏, IE浏览器有效
+location--yes/no---是否显示地址栏, IE浏览器有效
+fullscreen--yes/no---全屏显示
+
+
+-->

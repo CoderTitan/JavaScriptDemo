@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>间歇性定时器</title>
+</head>
+<body>
+
+    <button onclick="closeInterver()">关闭定时器</button>
+
+    <script type="text/javascript">
+        //setInterval(函数名,时间)
+        // 功能：创建一个间歇性定时器，每间隔参数二时间执行一次参数一函数
+        // 返回值：定时器的id，可以通过该id关闭定时器
+
+        // time不是定时器的名字, 只是定时器的编号, 是一个number类型
+        var time = window.setInterval(function () {
+            console.log(
+                "titanjun.top"
+            )
+        }, 1000)
+
+        // 关闭定时器
+        function closeInterver() {
+            //注：js中没有恢复定时器一说，当你停止定时器之后，定时器就会被删掉，想要继续的话，直接新建一个定时器。
+            window.clearInterval(time)
+        }
+    </script>
+
+</body>
+</html>

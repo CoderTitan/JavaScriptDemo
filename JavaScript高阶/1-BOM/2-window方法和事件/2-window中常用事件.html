@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>window中常用事件</title>
+</head>
+<body>
+
+    <button onclick="loadRed()">跳转</button>
+
+    <script type="text/javascript">
+        // onunload事件, 当页面完全卸载在触发, 只有IE浏览器支持
+        window.onunload = function () {
+            alert("确定关闭")
+        }
+
+        function loadRed() {
+            window.location.href = "red.html"
+        }
+
+
+        // load事件, 当页面加载完成的时候回触发该事件
+        window.onload = function () {
+            alert("页面加载完成了")
+        }
+
+        alert("页面加载中")
+    </script>
+
+</body>
+</html>

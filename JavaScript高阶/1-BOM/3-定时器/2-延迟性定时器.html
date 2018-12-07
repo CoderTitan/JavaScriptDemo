@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>延迟定时器</title>
+</head>
+<body>
+
+
+    <script type="text/javascript">
+        //setTimeout(函数名，时间)
+        //功能：参数2时间以后再执行参数1函数
+        //返回值：定时器的id
+
+        alert("创建定时器，3秒后执行名为func的函数");
+        var timer = setTimeout(function () {
+            console.log(
+                "titanjun.top"
+            )
+        }, 3000)
+
+
+        // 关闭定时器
+        function closeTimer() {
+            window.clearTimeout(timer)
+        }
+    </script>
+
+</body>
+</html>

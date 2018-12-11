@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b3a89-53e8-4dd2-9013-3ec342e7292a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1-BOM/1-BOM简介/1-BOM简介.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-BOM/1-BOM简介/greenWindow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-BOM/1-BOM简介/yellowWindow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-BOM/2-window方法和事件/1-window常用方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-BOM/2-window方法和事件/2-window中常用事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-BOM/2-window方法和事件/3-onresize事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-BOM/2-window方法和事件/3-onscroll事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-BOM/2-window方法和事件/red.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-BOM/3-定时器/1-间歇性定时器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-BOM/3-定时器/2-延迟性定时器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-DOM/1-DOM简介/1-DOM简介.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-DOM/2-获取DOM节点/1-获取标签(元素)节点.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-BOM/3-定时器/2-延迟性定时器.html" beforeDir="false" afterPath="$PROJECT_DIR$/1-BOM/3-定时器/2-延迟性定时器.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,46 +20,66 @@
     <session id="1065859356">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.72" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="11" />
+          <entry key="html" value="13" />
           <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="11" />
+          <entry key="HTML" value="13" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2157" />
+          <entry key="html" value="2836" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2157" />
+          <entry key="HTML" value="2836" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-BOM/3-定时器/1-间歇性定时器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            <state relative-caret-position="560">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-DOM/1-DOM简介/1-DOM简介.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1236">
+              <caret line="64" column="84" selection-start-line="64" selection-start-column="84" selection-end-line="64" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2-DOM/2-获取DOM节点/1-获取标签(元素)节点.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -74,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-BOM/3-定时器/2-延迟性定时器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state>
+              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -107,6 +120,8 @@
         <option value="$PROJECT_DIR$/1-BOM/2-window方法和事件/1-间歇性定时器.html" />
         <option value="$PROJECT_DIR$/1-BOM/3-定时器/2-延迟性定时器.html" />
         <option value="$PROJECT_DIR$/1-BOM/3-定时器/1-间歇性定时器.html" />
+        <option value="$PROJECT_DIR$/2-DOM/1-DOM简介/1-DOM简介.html" />
+        <option value="$PROJECT_DIR$/2-DOM/2-获取DOM节点/1-获取标签(元素)节点.html" />
       </list>
     </option>
   </component>
@@ -130,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,19 +156,18 @@
             <path>
               <item name="JavaScript高阶" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript高阶" type="462c0819:PsiDirectoryNode" />
-              <item name="1-BOM" type="462c0819:PsiDirectoryNode" />
+              <item name="2-DOM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaScript高阶" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript高阶" type="462c0819:PsiDirectoryNode" />
-              <item name="1-BOM" type="462c0819:PsiDirectoryNode" />
-              <item name="3-定时器" type="462c0819:PsiDirectoryNode" />
+              <item name="2-DOM" type="462c0819:PsiDirectoryNode" />
+              <item name="2-获取DOM节点" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,6 +176,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -195,17 +211,19 @@
       <workItem from="1543998710928" duration="2343000" />
       <workItem from="1544062192986" duration="2609000" />
       <workItem from="1544068852352" duration="3434000" />
+      <workItem from="1544425371408" duration="3781000" />
+      <workItem from="1544490560972" duration="2388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12172000" />
+    <option name="totallyTimeSpent" value="18341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1364" y="23" width="1196" height="1415" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30297872" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2280851" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -284,20 +302,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-BOM/3-定时器/1-间歇性定时器.js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1-BOM/3-定时器/1-间歇性定时器.js.html" />
     <entry file="file://$PROJECT_DIR$/1-BOM/2-window方法和事件/3-onresize事件.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -305,17 +313,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-BOM/3-定时器/2-延迟性定时器.html">
+    <entry file="file://$PROJECT_DIR$/1-BOM/3-定时器/1-间歇性定时器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="560">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-BOM/3-定时器/1-间歇性定时器.html">
+    <entry file="file://$PROJECT_DIR$/1-BOM/3-定时器/2-延迟性定时器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state>
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-DOM/1-DOM简介/1-DOM简介.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1236">
+          <caret line="64" column="84" selection-start-line="64" selection-start-column="84" selection-end-line="64" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-DOM/2-获取DOM节点/1-获取标签(元素)节点.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>

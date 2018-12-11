@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取元素节点</title>
+</head>
+<body>
+
+    <!--id div-->
+    <div id="idDiv"></div>
+
+    <!--classs div-->
+    <div class="class1"></div>
+    <div class="class1"></div>
+    <div class="class1"></div>
+    <div class="class1"></div>
+
+    <!--input-->
+    <input type="text" name="inputText">
+    <input type="text" name="inputText">
+    <input type="text" name="inputText">
+
+
+    <!--JavaScript-->
+    <script type="text/javascript">
+
+        // 1. 根据元素id获取元素节点
+        console.log('-------getElementById--------')
+        var idDiv = document.getElementById('idDiv')
+        console.log(idDiv)
+        console.log(typeof idDiv)
+
+
+        // 2. 根据元素class属性获取元素节点, 返回数组
+        console.log('-----------getElementsByClassName------------------')
+        var classDivs = document.getElementsByClassName('class1')
+        for (var div in classDivs) {
+            console.log(div)
+        }
+
+
+
+    </script>
+
+</body>
+</html>

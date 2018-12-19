@@ -15,10 +15,9 @@
 
         // time不是定时器的名字, 只是定时器的编号, 是一个number类型
         var time = window.setInterval(function () {
-            console.log(
-                "titanjun.top"
-            )
+            console.log("titanjun.top")
         }, 1000)
+        console.log(typeof time)
 
         // 关闭定时器
         function closeInterver() {

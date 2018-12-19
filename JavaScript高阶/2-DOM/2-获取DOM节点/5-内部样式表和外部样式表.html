@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内部样式表和外部样式表</title>
+    <style type="text/css">
+        #box1{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        #box2{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="box1"></div>
+    <div id="box2"></div>
+
+
+    <script type="text/javascript">
+        /**获取
+         *
+         * IE中：元素节点.currentStyle.样式属性名
+         *      元素节点.currentStyle["样式属性名"]
+         * 其他：window.getComputedStyle(元素节点, 伪类).样式属性名
+         *      window.getComputedStyle(元素节点, 伪类)["样式属性名"]
+         *
+         * 伪类一般写null即可
+         *
+         */
+
+
+        // 1. 获取元素节点
+        var jsdiv1 = document.getElementById('box1')
+        var jsdiv2 = document.getElementById('box2')
+
+
+        var w1 = 0
+        // 判断是否是IE浏览器
+        if (jsdiv1.currentStyle) {
+            w1 = jsdiv1.currentStyle.width
+        } else {
+            w1 = window.getComputedStyle(jsdiv1, null).width
+        }
+        console.log(w1)
+
+
+        var w2 = 0
+        // 判断是否是IE浏览器
+        if (jsdiv2.currentStyle) {
+            w2 = jsdiv2.currentStyle.width
+        } else {
+            w2 = window.getComputedStyle(jsdiv2, null).width
+        }
+        console.log(w2)
+
+
+        // 设置样式中的属性的值
+        jsdiv1.style.backgroundColor = 'orange'
+        jsdiv2.style.backgroundColor = 'blue'
+
+
+
+        /**
+         * getComputedStyle和style的区别
+         *
+         * 1. 只读与可写
+         *  - getComputedStyle(IE浏览器下是currentStyle)方法是只读的, 只能获取样式不能设置
+         *  - 而element.style能读能写
+         *
+         *  2. 获取的队形范围
+         *      - getComputedStyle获取的是最终应用在元素上的所有CSS属性对象(即使没有CSS代码, 也会把默认的都显示出来)
+         *      - 而elemwnt.styly只能获取元素style属性中的CSS样式, 因此对于一个光秃秃的元素<p>, getComputedStyle方法返回对象中length属性值(如果有), 而elemwnt.styl返回0
+         *
+         * */
+
+    </script>
+
+
+</body>
+</html>

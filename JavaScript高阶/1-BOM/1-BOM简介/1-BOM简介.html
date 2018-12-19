@@ -35,9 +35,29 @@
         console.log(window.navigator)
 
 
-        //window.screen
-        //提供浏览器以外的环境信息
+        // window.screen
+        // 提供浏览器以外的环境信息
         console.log(window.screen)
+        // 返回屏幕的宽度，以像素计，减去界面特性，比如窗口任务栏
+        console.log(screen.availWidth)
+        // 返回访问者屏幕的高度，以像素计，减去界面特性，比如窗口任务栏
+        console.log(screen.availHeight)
+        // 返回总宽度 * 高度
+        console.log(screen.width + "*" + screen.height)
+        // 返回色彩深度
+        console.log(screen.colorDepth)
+        // 返回色彩分辨率
+        console.log(screen.pixelDepth)
+
+        /*
+        * Screen { availWidth: 2560, availHeight: 1417, width: 2560, height: 1440, colorDepth: 24, pixelDepth: 24, top: 0, left: 0, availTop: 23, availLeft: 0 }
+1-BOM简介.html:40:9
+2560 1-BOM简介.html:42:9
+1417 1-BOM简介.html:44:9
+2560*1440 1-BOM简介.html:46:9
+24 1-BOM简介.html:48:9
+24
+        * */
 
 
         console.log(window.location)
@@ -49,8 +69,41 @@
         //replace()      加载新的页面(注意：不会再浏览器的历史记录表中留下记录)
 
 
+        // 返回web主机的域名和端口号
+        console.log(location.host)
+        // 返回 web 主机的域名
+        console.log(location.hostname)
+        // 返回当前页面的路径和文件名
+        console.log(location.pathname)
+        // 返回 web 主机的端口 （80 或 443）
+        console.log(location.port)
+        // 返回所使用的 web 协议（http:// 或 https://）
+        console.log(location.protocol)
+        // 返回当前页面的 URL
+        console.log(location.href)
+
+
+        /**
+         * hash: ""
+         ​
+         host: "localhost:63342"
+         ​
+         hostname: "localhost"
+         ​
+         href: "http://localhost:63342/JavaScript%E9%AB%98%E9%98%B6/1-BOM/1-BOM%E7%AE%80%E4%BB%8B/1-BOM%E7%AE%80%E4%BB%8B.html?_ijt=vb9fon4p4ceu770ukqk0313tgg"
+         ​
+         origin: "http://localhost:63342"
+         ​
+         pathname: "/JavaScript%E9%AB%98%E9%98%B6/1-BOM/1-BOM%E7%AE%80%E4%BB%8B/1-BOM%E7%AE%80%E4%BB%8B.html"
+         ​
+         port: "63342"
+         ​
+         protocol: "http:"
+         * */
+
 
         console.log(window.history)
+        console.log(history.length)
         //window.history
         //window.history.length获取历史记录的长度
         //back()     上一页
@@ -61,7 +114,7 @@
 
         function goGreen() {
             console.log("green")
-            window.location.href = "greenWindow.html"
+            window.location.href = "https://www.titanjun.top/"
         }
 
         function reloadRed() {
@@ -77,10 +130,10 @@
         }
 
         function nextPage() {
-            window.history.forward()
+
         }
 
-        function goYellow() {
+        function goYellowindow.history.forward()w() {
             window.history.go(2)
         }
 

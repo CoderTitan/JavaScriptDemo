@@ -32,12 +32,28 @@
 
 
         // 2. 根据元素class属性获取元素节点, 返回数组
+        // 获取相同class属性的元素节点列表, 注意：此方法不支持IE8以下
         console.log('-----------getElementsByClassName------------------')
         var classDivs = document.getElementsByClassName('class1')
-        for (var div in classDivs) {
-            console.log(div)
+        for (var i = 0; i < classDivs.length; i++) {
+            console.log(classDivs[i])
         }
 
+
+        // 3.根据标签名来获取元素节点的结合, 返回数组
+        console.log('-----------getElementsByTagName------------------')
+        var tagNameDics = document.getElementsByTagName('div')
+        for (var i = 0; i < tagNameDics.length; i++) {
+            console.log(tagNameDics[i])
+        }
+
+
+        // 4. 根据name属性值来获取元素节点的集合, 返回数组
+        console.log('------------getElementsByName--------------------')
+        var nameDivs = document.getElementsByName('inputText')
+        for (var i = 0; i < nameDivs.length; i++) {
+            console.log(nameDivs[i])
+        }
 
 
     </script>

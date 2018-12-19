@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取属性节点</title>
+</head>
+<body>
+
+    <input type="text"  id="in" placeholder="titanjun.top" blog="titanjun">
+
+    <script type="text/javascript">
+
+        var input = document.getElementById('in')
+        console.log(input)
+
+
+        // 1. 获取官方定义的属性节点可以世界使用, 用法: 元素节点.属性名
+        // 得到元素对应的属性值
+        var inType = input.type
+        console.log(inType)
+        console.log(input.placeholder)
+
+        // 修改元素对应的属性值
+        input.placeholder = "https://www.titanjun.top"
+
+
+
+        console.log('-----------getAttribute-----------')
+        // 2. getAttribute方法, 可获取官方定义的属性和自定义的属性
+        console.log(input.getAttribute('placeholder'))
+        var blog = input.getAttribute('blog')
+        console.log(blog)
+
+
+        console.log('-----------setAttribute-----------')
+        // 修改元素对应的属性名
+        input.setAttribute('blog', 'titan')
+        console.log(input)
+
+
+        console.log('-----------removeEventListener-----------')
+        // 移除元素节点中的某个属性节点, 某些低版本浏览器不支持
+        input.removeAttribute('blog')
+        console.log(input)
+
+    </script>
+
+</body>
+</html>

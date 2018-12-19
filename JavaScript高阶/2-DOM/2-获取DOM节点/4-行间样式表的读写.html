@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行间样式表的读写</title>
+</head>
+<body>
+
+
+    <div id="box" style="width: 100px; height: 100px; background-color: red"></div>
+    <button onclick="changeColor()">换颜色</button>
+
+    <script type="text/javascript">
+        // 获取元素节点
+        var jsDiv = document.getElementById('box')
+
+        // 获取style属性节点
+        var divStyle = jsDiv.style
+        // console.log(divStyle)
+
+
+        // 获取像是表中的样式属性的属性值
+        // 方法一: 元素节点.style.样式属性名
+        // 方法二: 元素节点.style["样式属性名"]
+        var w = divStyle.width
+        console.log(w)
+
+        var h = jsDiv.style["height"]
+        console.log(h)
+
+
+
+        // 设置样式表中样式属性的属性值
+        // 元素节点.style.样式属性名 = 样式属性值
+        // background-color --- backgroundColor
+        // HTML中的-号去掉，-号后面的单词首字母大写
+        jsDiv.style.backgroundColor = 'green'
+
+        function changeColor() {
+            var r = parseInt(Math.random() * 256);
+            var g = parseInt(Math.random() * 256);
+            var b = parseInt(Math.random() * 256);
+
+            var colorStr = "rgb(" + r + ", " + g + ", " + b + ")";
+            jsDiv.style.backgroundColor = colorStr
+        }
+
+    </script>
+
+</body>
+</html>

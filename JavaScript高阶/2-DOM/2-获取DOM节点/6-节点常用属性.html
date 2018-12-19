@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>节点常用属性</title>
+    <style type="text/css">
+        #box1{
+            width: 200px;height: 200px;background-color: red;
+        }
+        #box2{
+            width: 200px;height: 200px;background-color: green;
+        }
+        #box3{
+            width: 200px;height: 200px;background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="box1">
+        <p>我是第一个P</p>
+        <p>我是第二个P</p>
+        <p>我是第三个P</p>
+        <p>我是第四个P</p>
+    </div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+    <input id="put" type="text" name="in" placeholder="https://www.titanjun.top">
+
+
+    <script type="text/javascript">
+        // 节点共有的属性：nodeName、nodeType、nodeValue
+        var div1 = document.getElementById('box1')
+        console.log(div1)
+        console.log(div1.nodeName, div1.nodeType, div1.nodeValue)
+
+
+        // 1. 获取当前元素节点的所有的子节点
+        var childNodesArr = div1.childNodes
+        console.log(childNodesArr)
+
+        // 2. 获取当前元素节点的第一个子节点
+        var firstChildNode = div1.firstChild
+        console.log(firstChildNode)
+
+        // 3. 获取当前节点的最后一个节点
+        var lastChhildNode = div1.lastChild
+        console.log(lastChhildNode)
+
+        // 4. 获取该节点文档的根节点, 相当于document
+        var rootNode = div1.ownerDocument
+        console.log(rootNode)
+
+        // 5. 获取当前节点的父节点
+        var parentNode = div1.parentNode
+        console.log(parentNode)
+
+        // 6. 获取当前节点的前一个同级节点
+        var div2 = document.getElementById('box2')
+        var previousNode = div2.previousSibling
+        console.log(previousNode)
+
+        // 7. 获取当前节点的后一个同级节点
+        var nextNode = div2.nextSibling
+        console.log(nextNode)
+
+        // 8. 获取当前节点的所有属性节点
+        var jsInput = document.getElementById('put')
+        console.log(jsInput.attributes)
+    </script>
+
+
+
+</body>
+</html>
+
+
+<!--
+
+节点类型  nodeName  nodeType  nodeValue
+元素节点  元素名称      1        null
+属性节点  属性名称      2       属性值
+文本节点   #text       3       文本内容不包括html
+注释节点  #comment     8       注释内容
+
+
+-->

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>提示框</title>
+</head>
+<body>
+
+    <button onclick="showPrompt()">点击显示提示框</button>
+
+    <script type="text/javascript">
+        function showPrompt() {
+            var action = ''
+
+            var person = prompt('请输入你的名字', 'titanjun')
+            if (person != null && person != "") {
+                action = "你好: " + person
+            }
+
+            console.log(action)
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>确认框</title>
+</head>
+<body>
+
+    <button onclick="showConfirm()">点击显示确认框</button>
+
+    <script type="text/javascript">
+        function showConfirm() {
+            var action = ''
+
+            var con = confirm('你好, 这是一个警告框!')
+            if (con == true) {
+                action = '选择了确认'
+            } else {
+                action = '选择了取消'
+            }
+
+            console.log(action)
+        }
+    </script>
+
+</body>
+</html>

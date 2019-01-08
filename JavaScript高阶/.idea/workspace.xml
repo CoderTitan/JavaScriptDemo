@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b3a89-53e8-4dd2-9013-3ec342e7292a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1-BOM/4-js弹窗/1-警告框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-BOM/4-js弹窗/2-确认框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-BOM/4-js弹窗/3-提示框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-DOM/2-获取DOM节点/2-获取属性节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-DOM/2-获取DOM节点/3-获取文本节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-DOM/2-获取DOM节点/4-行间样式表的读写.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-DOM/2-获取DOM节点/5-内部样式表和外部样式表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-DOM/2-获取DOM节点/6-节点常用属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-DOM/2-获取DOM节点/7-节点的动态操作.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-BOM/1-BOM简介/1-BOM简介.html" beforeDir="false" afterPath="$PROJECT_DIR$/1-BOM/1-BOM简介/1-BOM简介.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-BOM/2-window方法和事件/1-window常用方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/1-BOM/2-window方法和事件/1-window常用方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-BOM/3-定时器/1-间歇性定时器.html" beforeDir="false" afterPath="$PROJECT_DIR$/1-BOM/3-定时器/1-间歇性定时器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-BOM/3-定时器/2-延迟性定时器.html" beforeDir="false" afterPath="$PROJECT_DIR$/1-BOM/3-定时器/2-延迟性定时器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-DOM/2-获取DOM节点/1-获取标签(元素)节点.html" beforeDir="false" afterPath="$PROJECT_DIR$/2-DOM/2-获取DOM节点/1-获取标签(元素)节点.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-DOM/1-DOM简介/test.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,9 +17,10 @@
     <session id="1065859356">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.30" value="1" />
@@ -43,40 +30,65 @@
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="38" />
+          <entry key="html" value="40" />
           <entry key="ts" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="38" />
+          <entry key="HTML" value="40" />
           <entry key="TypeScript" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="7171" />
+          <entry key="html" value="7346" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="7171" />
+          <entry key="HTML" value="7346" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-DOM/2-获取DOM节点/7-节点的动态操作.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="640">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-DOM/1-DOM简介/1-DOM简介.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2-DOM/1-DOM简介/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="28" column="94" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#ul#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-DOM/2-获取DOM节点/6-节点常用属性.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="500">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -93,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-DOM/2-获取DOM节点/1-获取标签(元素)节点.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
+            <state relative-caret-position="560">
               <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
             </state>
           </provider>
@@ -151,6 +163,7 @@
         <option value="$PROJECT_DIR$/1-BOM/2-window方法和事件/1-window常用方法.html" />
         <option value="$PROJECT_DIR$/2-DOM/2-获取DOM节点/6-节点常用属性.html" />
         <option value="$PROJECT_DIR$/2-DOM/2-获取DOM节点/7-节点的动态操作.html" />
+        <option value="$PROJECT_DIR$/2-DOM/1-DOM简介/test.html" />
       </list>
     </option>
   </component>
@@ -161,9 +174,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1364" />
-    <option name="y" value="23" />
-    <option name="width" value="1196" />
+    <option name="x" value="271" />
+    <option name="y" value="25" />
+    <option name="width" value="1602" />
     <option name="height" value="1415" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -174,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,17 +206,10 @@
               <item name="2-DOM" type="462c0819:PsiDirectoryNode" />
               <item name="1-DOM简介" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaScript高阶" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScript高阶" type="462c0819:PsiDirectoryNode" />
-              <item name="2-DOM" type="462c0819:PsiDirectoryNode" />
-              <item name="2-获取DOM节点" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,17 +261,18 @@
       <workItem from="1545048525051" duration="150000" />
       <workItem from="1545132919129" duration="1745000" />
       <workItem from="1545185028037" duration="2553000" />
+      <workItem from="1545978064775" duration="1766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47919000" />
+    <option name="totallyTimeSpent" value="49685000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1364" y="23" width="1196" height="1415" extended-state="0" />
+    <frame x="271" y="25" width="1602" height="1415" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2280851" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16951297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -368,13 +376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-DOM/1-DOM简介/1-DOM简介.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2-DOM/2-获取DOM节点/3-获取文本节点.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -386,9 +387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -420,6 +418,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2-DOM/2-获取DOM节点/7-节点的动态操作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-DOM/2-获取DOM节点/6-节点常用属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-DOM/2-获取DOM节点/1-获取标签(元素)节点.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2-DOM/2-获取DOM节点/2-获取属性节点.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -427,24 +446,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-DOM/2-获取DOM节点/1-获取标签(元素)节点.html">
+    <entry file="file://$PROJECT_DIR$/2-DOM/1-DOM简介/1-DOM简介.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        <state relative-caret-position="280">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-DOM/2-获取DOM节点/6-节点常用属性.html">
+    <entry file="file://$PROJECT_DIR$/2-DOM/1-DOM简介/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2-DOM/2-获取DOM节点/7-节点的动态操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="560">
+          <caret line="28" column="94" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#ul#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
